@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Quicksand-Medium.ttf');
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.input-group:focus {
+    outline: none;
+}
+
+.checkbox-custom:checked {
+    background-color: #fff;
+    outline: none;
+    color: #3fe599;
+}
